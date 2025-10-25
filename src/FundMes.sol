@@ -33,7 +33,7 @@ contract FundMe {
             "didnt send enough eth"
         );
         funders.push(msg.sender);
-        fundersToAmount[msg.sender] = fundersToAmount[msg.sender] = msg.value;
+        fundersToAmount[msg.sender] = fundersToAmount[msg.sender] + msg.value;
         bool success = true;
         return success;
         //here reverts if didnt send enough eth
