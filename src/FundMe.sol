@@ -11,7 +11,7 @@ error FundMe__NotOwner();
 
 /**
  * @title A sample Funding Contract
- * @author Patrick Collins
+ * @author Siddu Mulkalla
  * @notice This contract is for creating a sample funding contract
  * @dev This implements price feeds as our library
  */
@@ -86,7 +86,7 @@ contract FundMe {
     }
 
     /**
-     * Getter Functions
+     * Getter Functions or view functions
      */
 
     /**
